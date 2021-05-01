@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #000;
+
+}
+.loading{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 15px solid;
+	border-color:#fff702 #42400057;
+	animation: 1.5s spinning infinite;
+}
+@keyframes spinning{
+	to{
+		transform: rotate(360deg);
+	}
+}
